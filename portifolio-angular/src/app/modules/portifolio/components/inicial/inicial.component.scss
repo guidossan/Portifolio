@@ -1,6 +1,8 @@
 
 .container{
   display: flex;
+  flex-direction: row;
+  gap:24px;
   justify-content: center;
   align-items: center;
   height:2034px;
@@ -26,6 +28,34 @@
       margin-left: 32px;
       margin-right: 32px;
       color: #393E46;
+      font-size: 18px;
+      font-family: "Poppins", Bold;
+      font-weight: 600;
+      font-style: normal;
+    }
+  }
+  .div-download{
+    display: flex;
+    width: 186px;
+    height: 47px;
+    border-radius: 24px;
+    gap:5px;
+    background-color: #393E46;
+    align-items: center;
+    justify-content: center;
+    a {
+      text-decoration: none;
+    }
+    strong{
+      margin-top: 10px;
+      margin-bottom: 10px;
+      margin-left: 32px;
+      margin-right: 32px;
+      color: white;
+      font-size: 18px;
+      font-family: 'Poppins', Bold;
+      font-weight: 600;
+      font-style: normal;
     }
   }
 }

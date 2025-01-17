@@ -1,0 +1,11 @@
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:2034px;
+  width: auto;
+  background-image: url('../../../../../assets/img/backgrund.png');
+  background-repeat: no-repeat; /* Adicionado para evitar repetição */
+  background-size: cover; /* Adicionado para ajustar o tamanho da imagem ao container */
+}

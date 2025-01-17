@@ -1,12 +1,27 @@
 .container-header{
+  margin-top: 48;
   display: flex;
-  background-color: red;
-
+  justify-content: space-between;
+  background-color: black;
+}
+.container-header-title {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  margin-left: 96px;
+  margin-top: 48;
+  h2 {
+    color: white;
+  }
+}
+.container-header-links {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  margin-right: 96px;
+  margin-top: 48;
+  gap:48px;
   a {
-    display: flex;
-    color:aqua;
-    align-items:center;
-    justify-items: right;
-    
+    color:white;
   }
 }

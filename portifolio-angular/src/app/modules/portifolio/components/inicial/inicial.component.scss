@@ -8,4 +8,25 @@
   background-image: url('../../../../../assets/img/backgrund.png');
   background-repeat: no-repeat; /* Adicionado para evitar repetição */
   background-size: cover; /* Adicionado para ajustar o tamanho da imagem ao container */
+  .div-contate{
+    display: flex;
+    width: 186px;
+    height: 47px;
+    border-radius: 24px;
+    gap:5px;
+    background-color: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+    a {
+      text-decoration: none;
+    }
+    strong{
+      margin-top: 10px;
+      margin-bottom: 10px;
+      margin-left: 32px;
+      margin-right: 32px;
+      color: #393E46;
+    }
+  }
 }
+

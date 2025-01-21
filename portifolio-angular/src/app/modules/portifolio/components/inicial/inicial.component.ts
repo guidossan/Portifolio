@@ -7,7 +7,7 @@ import { ProjetosComponent } from "../projetos/projetos.component";
 @Component({
   selector: 'app-inicial',
   standalone: true,
-  imports: [CommonModule, SobreComponent, BotoesComecoComponent, ProjetosComponent],
+  imports: [CommonModule, BotoesComecoComponent, ProjetosComponent],
   templateUrl: './inicial.component.html',
   styleUrl: './inicial.component.scss'
 })

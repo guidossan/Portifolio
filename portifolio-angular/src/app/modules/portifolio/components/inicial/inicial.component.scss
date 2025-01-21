@@ -1,7 +1,7 @@
 
 .container{
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   height:2034px;
   width: auto;
   background-image: url('../../../../../assets/img/backgrund.png');
@@ -10,80 +10,56 @@
   .section-1{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    gap:2px;
+    width: auto;
+    height:720px;
+
     .div-cima{
-      background-color:blue;
+
       display: flex;
-      flex-direction: column;
+      height:192px;
+      width: auto;
       align-items: initial;
+      margin-right: 361px;
+      flex-direction: column;
+      margin-top: 204px;
       h1{
         color: white;
-        background-color: blueviolet;
         font-size: 96px;
         font-family: "Poppins", Bold;
         font-weight: 700;
         font-style: normal;
         line-height: 1;
+        margin: 0;
       }
     }
     .div-baixo{
-      background-color: red;
+      display: flex;
+      flex-direction: row;
+      align-items: initial;
+      gap:179px;
+      justify-content: center;
+
+    }
+    .div-botoes{
       display: flex;
       flex-direction: row;
       gap:24px;
       justify-content: center;
       align-items: center;
-      .div-contate{
-        display: flex;
-        width: 186px;
-        height: 47px;
-        border-radius: 24px;
-        gap:5px;
-        background-color: #FFFFFF;
-        align-items: center;
-        justify-content: center;
-        a {
-          text-decoration: none;
-        }
-        strong{
-          margin-top: 10px;
-          margin-bottom: 10px;
-          margin-left: 32px;
-          margin-right: 32px;
-          color: #393E46;
-          font-size: 18px;
-          font-family: "Poppins", Bold;
-          font-weight: 600;
-          font-style: normal;
-        }
-      }
-      .div-download{
-        display: flex;
-        width: 186px;
-        height: 47px;
-        border-radius: 24px;
-        gap:5px;
-        background-color: #393E46;
-        align-items: center;
-        justify-content: center;
-        a {
-          text-decoration: none;
-        }
-        strong{
-          margin-top: 10px;
-          margin-bottom: 10px;
-          margin-left: 32px;
-          margin-right: 32px;
-          color: white;
-          font-size: 18px;
-          font-family: 'Poppins', Bold;
-          font-weight: 600;
-          font-style: normal;
-        }
-      }
+    }
+    .div-ir-para-sobre{
+      display: flex;
+      justify-content: center;
+      margin-top: 111px;
     }
   }
   .section-2{
     display: flex;
+    background-color: blue;
+    align-items: center;
   }
 }
+
 

@@ -31,15 +31,32 @@
   </div>
 
 
-  <div class="section-2">
-    <div class="div-sobre" id="sobre">
-      <h1>Sobre min</h1>
-      <p>Olá, meu nome é <strong>Lucas</strong>, sou desenvolvedor full-stack, apaixonado por tecnologia e inovação. Atualmente estou cursando Análise e Desenvolvimento de Sistemas na Faculdade de Tecnologia de São Paulo (FATEC-SP). Tenho experiência com desenvolvimento web, mobile e desktop, utilizando tecnologias como Angular, React, Node.js, Java, Spring Boot, entre outras. Estou sempre em busca de novos desafios e aprendizados, e acredito que a tecnologia é uma ferramenta poderosa para transformar o mundo.</p>
-    </div>
-    <div class="div-habilidades">
-      <h1>Habilidades</h1>
+  <div class="section-2" id="sobre">
+    <div class="div-sobre">
+      <div class="div-sobre-text">
 
+        <h1>Sobre min</h1>
+        <p>
+          Sou um entusiasta de Engenharia de Software com uma paixão por aprender novos métodos e tecnologias. Meu foco é aplicar meu conhecimento teórico em projetos práticos. Possuo experiência profissional em automação de processos e estou sempre em busca de expandir meus horizontes na programação, tenho desenvolvido projetos acadêmicos que me permitem aplicar minhas habilidades em situações do mundo real.
+        </p>
+      </div>
+      <div class="div-image">
+        <img src="../../../../../assets/img/IMG_20241218_105212.jpg" width="500px" height="500px"/>
+
+      </div>
     </div>
+    @defer(on viewport){
+      <app-projetos></app-projetos>
+    }@placeholder {
+      <section>
+        <h2>Carregando projetos...</h2>
+      </section>
+    }@error {
+      <section>
+        <h2>Ocorreu um erro no carregamento</h2>
+      </section>
+    }
+
 
   </div>
 

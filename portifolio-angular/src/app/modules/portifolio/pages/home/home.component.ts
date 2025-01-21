@@ -6,6 +6,7 @@ import { InicialComponent } from "../../components/inicial/inicial.component";
 import { SobreComponent } from "../../components/sobre/sobre.component";
 import { ServicosComponent } from "../../components/servicos/servicos.component";
 import { ContatoComponent } from "../../components/contato/contato.component";
+import { ProjetosComponent } from '../../components/projetos/projetos.component';
 
 @Component({
   selector: 'app-home',

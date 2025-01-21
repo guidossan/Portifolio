@@ -57,9 +57,49 @@
   }
   .section-2{
     display: flex;
-    background-color: blue;
-    align-items: center;
+    flex-direction: column;
+
+    background-color: red;
+    width: auto;
+    height:1314px;
+    margin: 0px;
+    .div-sobre{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin-top: 200px;
+      background-color: blue;
+      .div-sobre-text{
+        display: flex;
+        flex-direction: column;
+        width: 389px;
+        height: 285px;
+        margin-top: 111px;
+        h1{
+          color: white;
+          font-size: 64px;
+          font-family: "Poppins", Bold;
+          font-weight: 700;
+          font-style: normal;
+          line-height: 1;
+          margin: 0;
+        }
+        p{
+          color: white;
+          font-size: 18px;
+          font-family: "Poppins", Mixed;
+          font-weight: 300;
+          font-style: normal;
+          line-height: 1;
+          margin: 0;
+        }
+
+      .div-image{
+        display: flex;
+      }
+    }
   }
 }
 
 
+}

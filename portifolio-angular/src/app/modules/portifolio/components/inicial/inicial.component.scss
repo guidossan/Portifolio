@@ -83,12 +83,12 @@
       .div-sobre-text{
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: self-start;
 
         flex-direction: column;
-        width: 389px;
-        height: 285px;
-        margin-top: 111px;
+        width: 650px;
+        height: 350px;
+
         h1{
           color: white;
           font-size: 64px;

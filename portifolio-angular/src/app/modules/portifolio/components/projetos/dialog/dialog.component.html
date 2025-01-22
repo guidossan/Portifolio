@@ -11,7 +11,7 @@
 
   <nav>
     @for(item of getData()?.links; track item){
-      <a [href]="item.href" target="_black" >{{item.name}}</a>
+      <a [href]="item.href" target="_black" class="btn btn-primary">{{item.name}}</a>
     }
   </nav>
 </mat-dialog-content>

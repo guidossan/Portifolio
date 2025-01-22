@@ -74,10 +74,17 @@
       display: flex;
       flex-direction: row;
       justify-content: center;
+      align-items: center;
       margin-top: 110px;
-      background-color: blue;
+      width: 900px;
+      height: 500px;
+      gap:200px;
+
       .div-sobre-text{
         display: flex;
+        justify-content: center;
+        align-items: center;
+
         flex-direction: column;
         width: 389px;
         height: 285px;
@@ -93,6 +100,7 @@
         }
         p{
           color: white;
+          text-align: justify;
           font-size: 18px;
           font-family: "Poppins", Mixed;
           font-weight: 300;
@@ -103,6 +111,7 @@
 
       .div-image{
         display: flex;
+        justify-content: center;
       }
     }
   }

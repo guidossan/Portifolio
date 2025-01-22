@@ -11,7 +11,7 @@ import { ProjetosComponent } from '../../components/projetos/projetos.component'
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [CommonModule, HeaderComponent, FooterComponent, InicialComponent, ServicosComponent, ContatoComponent],
+  imports: [CommonModule, HeaderComponent, FooterComponent, InicialComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })

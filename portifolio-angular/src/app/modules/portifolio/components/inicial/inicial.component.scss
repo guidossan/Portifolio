@@ -2,8 +2,9 @@
 .container{
   display: flex;
   flex-direction: column;
-  height:2034px;
-  width: auto;
+  //height:2034px;
+  height: 100%;
+  width: 100%;
   background-image: url('../../../../../assets/img/backgrund.png');
   background-repeat: no-repeat; /* Adicionado para evitar repetição */
   background-size: cover; /* Adicionado para ajustar o tamanho da imagem ao container */

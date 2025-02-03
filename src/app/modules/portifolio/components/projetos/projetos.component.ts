@@ -44,6 +44,20 @@ export class ProjetosComponent {
         },
       ],
     },
+    {
+      imgSrc:"../../../../../assets/img/projects/lista-de-tarefas.png",
+      alt:"Projeto Lista de Tarefas Angular",
+      tittle:"Lista de Tarefas",
+      width:"100px",
+      height:"100px",
+      description:"Este é meu projeto de uma simples lista de tarefas, utilizando LocalStorage do navegados e comunicação entre componentes para esse projeto utilizei apenas angular no seu desenvolvimento, caso queira conferir e utilizar basta clicar no link abaixo.",
+      links: [
+        {
+          name: "Ir para o site",
+          href:"https://lorenzinitech-listatarefas.vercel.app/",
+        },
+      ],
+    },
   ]);
   public openDialog(data:IProjetos){
     this.#dialog.open(DialogComponent,{

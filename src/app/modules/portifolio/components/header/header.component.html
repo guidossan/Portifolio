@@ -4,6 +4,12 @@
       <h2>Lorenzini Dev</h2>
     </div>
     <div class="container-header-links">
+
+      <img [src]="selectedIcon" alt="Brasil" style="width: 20px; height: 20px;"/>
+      <select class="language-selector" [(ngModel)]="selectedLanguage" (change)="changeLanguage($event)">
+        <option value="pt-br">Português</option>
+        <option value="en">English</option>
+      </select>
       <a href="#home" (click)="navigateToSection('home', $event)">Home</a>
       <a href="#sobre" (click)="navigateToSection('sobre',$event)">Sobre min</a>
       <a href="#flooter" (click)="navigateToSection('flooter',$event)">Contato</a>

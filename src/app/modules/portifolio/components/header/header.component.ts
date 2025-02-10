@@ -10,4 +10,9 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
 
+  navigateToSection(section: string, event: Event) {
+    event.preventDefault();
+    document.getElementById(section)?.scrollIntoView({ behavior: 'smooth' });
+    history.pushState(null, '', '/'); // Atualiza a URL sem o hash
+  }
 }

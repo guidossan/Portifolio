@@ -4,11 +4,12 @@ import { CommonModule } from '@angular/common';
 import { EDialogPanelClass } from '../../enum/EDialogPanelClass.enum';
 import { DialogComponent } from './dialog/dialog.component';
 import { MatDialog } from '@angular/material/dialog';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-projetos',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule,TranslateModule],
   templateUrl: './projetos.component.html',
   styleUrl: './projetos.component.scss'
 })

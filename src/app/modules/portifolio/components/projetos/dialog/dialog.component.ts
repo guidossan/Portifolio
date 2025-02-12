@@ -1,11 +1,12 @@
 import { Component, Inject, OnInit, signal } from '@angular/core';
 import { MAT_DIALOG_DATA, MatDialog, MatDialogModule, MatDialogRef } from '@angular/material/dialog';
 import { IProjetos } from '../../../interface/IProjetos.interface';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-dialog',
   standalone: true,
-  imports: [MatDialogModule],
+  imports: [MatDialogModule,TranslateModule],
   templateUrl: './dialog.component.html',
   styleUrl: './dialog.component.scss'
 })

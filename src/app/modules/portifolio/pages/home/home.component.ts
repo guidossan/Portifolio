@@ -7,11 +7,12 @@ import { SobreComponent } from "../../components/sobre/sobre.component";
 import { ServicosComponent } from "../../components/servicos/servicos.component";
 import { ContatoComponent } from "../../components/contato/contato.component";
 import { ProjetosComponent } from '../../components/projetos/projetos.component';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [CommonModule, HeaderComponent, FooterComponent, InicialComponent],
+  imports: [CommonModule, HeaderComponent, FooterComponent, InicialComponent,TranslateModule],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })

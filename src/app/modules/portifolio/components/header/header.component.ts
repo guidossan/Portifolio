@@ -1,31 +1,30 @@
 import { CommonModule } from '@angular/common';
 import { Component, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { TranslateModule, TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [CommonModule ,FormsModule],
+  imports: [CommonModule ,FormsModule,TranslateModule],
   templateUrl: './header.component.html',
   styleUrl: './header.component.scss'
 })
 export class HeaderComponent {
 
+  #translate = inject(TranslateService);
 
-  public translate(event: Event){
-    console.log(event)
-  }
   selectedLanguage: string = 'pt-br';
   selectedIcon: string='../../../../../assets/icons/iconBr.svg';
   changeLanguage(event: Event) {
     const selectedValue = (event.target as HTMLSelectElement).value;
-
+    this.#translate.setDefaultLang(selectedValue)
     if (selectedValue === 'en') {
       this.selectedIcon = '../../../../../assets/icons/iconEn.svg';
     } else {
       this.selectedIcon = '../../../../../assets/icons/iconBr.svg';
     }
-  
+
 
 
   }

@@ -1,9 +1,14 @@
 {
   "pages": {
     "translate": {
-      "text": {
-        "language": "en",
-        "title": "Translate"
+     "header":{
+        "home": "Home",
+        "about": "About",
+        "contact": "Contact"
+      },
+      "sobre":{
+        "title": "Sobre",
+        "text": "Este é um exemplo de aplicação Angular com i18n."
       }
     }
   }

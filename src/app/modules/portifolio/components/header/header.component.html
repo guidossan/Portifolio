@@ -11,9 +11,9 @@
         <option value="en">English</option>
       </select>
 
-      <a href="#home" (click)="navigateToSection('home', $event)">Home</a>
-      <a href="#sobre" (click)="navigateToSection('sobre',$event)">Sobre mim</a>
-      <a href="#flooter" (click)="navigateToSection('flooter',$event)">Contato</a>
+      <a href="#home" (click)="navigateToSection('home', $event)">{{ 'pages.translate.header.home' | translate}}</a>
+      <a href="#sobre" (click)="navigateToSection('sobre',$event)">{{ 'pages.translate.header.about' | translate}}</a>
+      <a href="#flooter" (click)="navigateToSection('flooter',$event)">{{ 'pages.translate.header.contact' | translate}}</a>
     </div>
   </div>
 

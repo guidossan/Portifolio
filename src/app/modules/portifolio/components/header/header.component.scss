@@ -23,6 +23,10 @@
   gap:48px;
   a {
     color:white;
+    text-decoration: none;
+    flex: 1; /* Distribui o espaço uniformemente */
+    min-width: 60px; /* Define uma largura mínima */
+    text-align: center;
   }
   .language-selector {
     appearance: none; /* Remove estilos padrão do select */
@@ -35,6 +39,8 @@
     font-size: 16px;
     background-color: #222; /* Cor de fundo */
     color: #fff;
+    flex: 1; /* Distribui o espaço uniformemente */
+    min-width: 150px; /* Define uma largura mínima */
   }
 
   .language-selector option {

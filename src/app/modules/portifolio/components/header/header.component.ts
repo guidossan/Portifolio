@@ -18,6 +18,7 @@ export class HeaderComponent {
   selectedIcon: string='../../../../../assets/icons/iconBr.svg';
   changeLanguage(event: Event) {
     const selectedValue = (event.target as HTMLSelectElement).value;
+    console.log(selectedValue);
     this.#translate.setDefaultLang(selectedValue)
     if (selectedValue === 'en') {
       this.selectedIcon = '../../../../../assets/icons/iconEn.svg';

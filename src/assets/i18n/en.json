@@ -17,7 +17,9 @@
           "title": "About",
           "text": "Software Engineer with the objective of applying methods and technologies to real projects. I have professional experience in process automation and software development with Angular and Java. I have developed academic projects that allow me to apply my skills in real-world situations such as the projects below."
         }
-
+      },
+      "projects":{
+        "title":"Developed projects"
       }
     }
   }

@@ -56,3 +56,8 @@
   }
 
 }
+@media (max-width: 768px) {
+  .container-header-links a {
+    display: none; /* Esconde os links em dispositivos móveis */
+  }
+}

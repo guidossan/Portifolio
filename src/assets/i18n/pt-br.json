@@ -12,9 +12,11 @@
         "contact": "Contate-me",
         "download":"Download CV"
       },
-      "sobre":{
-        "title": "Sobre",
-        "text": "Este é um exemplo de aplicação Angular com i18n."
+      "section-2":{
+        "about":{
+          "title": "Sobre",
+          "text": "Engenheiro de Software com objetivo de aplicar métodos e tecnologias em projetos reais. Possuo experiência profissional em automação de processos e desenvolvimento de software com Angular e Java. Tenho desenvolvido projetos acadêmicos que me permitem aplicar minhas habilidades em situações do mundo real como em projetos abaixo."
+        }
       }
     }
   }

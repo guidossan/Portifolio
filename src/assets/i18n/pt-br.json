@@ -6,6 +6,12 @@
         "about": "Sobre",
         "contact": "Contato"
       },
+      "section-1":{
+        "job-title-1":"Desenvolvedor",
+        "job-title-2":"Full Stack",
+        "contact": "Contate-me",
+        "download":"Download CV"
+      },
       "sobre":{
         "title": "Sobre",
         "text": "Este é um exemplo de aplicação Angular com i18n."

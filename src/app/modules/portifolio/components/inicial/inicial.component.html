@@ -2,18 +2,18 @@
 
   <div class="section-1" id="home">
     <div class="div-cima">
-      <h1 style="color: #393E46;;">Desenvolvedor</h1>
-      <h1>Full-stack</h1>
+      <h1 style="color: #393E46;;">{{ 'pages.translate.section-1.job-title-1' | translate }}</h1>
+      <h1>{{ 'pages.translate.section-1.job-title-2' | translate }}</h1>
     </div>
     <div class="div-baixo">
       <div class="div-botoes">
         <app-botoes-comeco
         link="https://wa.me/554195008281?text=Tenho%20interesse%20em%20comprar%20seu%20carro"
-        textoBotao="Contrate-me"
+        [textoBotao]="'pages.translate.section-1.contact' | translate"
         cssBotao="div-contate"></app-botoes-comeco>
         <app-botoes-comeco
         link="assets/pdf/cv.pdf"
-        textoBotao="Download CV"
+        [textoBotao]="'pages.translate.section-1.download' | translate"
         cssBotao="div-download"
         path="../../../../../assets/icons/download.svg"></app-botoes-comeco>
       </div>

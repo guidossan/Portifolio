@@ -19,42 +19,42 @@ export class ProjetosComponent {
   public arrayProjetos = signal<IProjetos[]>([
     {
       imgSrc:"../../../../../assets/img/projects/ReactJava.png",
-      alt:"Projeto React Java",
-      tittle:"Projeto React Java",
+      alt: "pages.translate.projects.reactJava.alt",
+      tittle: "pages.translate.projects.reactJava.title",
       width:"429px",
       height:"261px",
-      description:"Olá! Este é meu projeto inicial, desenvolvido em React com backend em Java. O projeto está containerizado com Docker, facilitando o manuseio, e planejo hospedá-lo na nuvem em breve. Caso queira conhecer mais a fundo, clique no link abaixo.",
+      description:"pages.translate.projects.reactJava.description",
       links: [
         {
-          name: "Github",
+          name: "pages.translate.projects.reactJava.name",
           href:"https://github.com/guidossan/Projeto-React-Java",
         },
       ],
     },
     {
       imgSrc:"../../../../../assets/img/projects/angular2.png",
-      alt:"Projeto Portifólio Angular",
-      tittle:"Projeto Portifólio Angular",
+      alt:"pages.translate.projects.portifolioAngular.alt",
+      tittle:"pages.translate.projects.portifolioAngular.title",
       width:"100px",
       height:"100px",
-      description:"Este é o meu portfólio, que está em constante aprimoramento e recebendo atualizações. Ele foi desenvolvido em Angular, um dos frameworks que tenha familiaridade. Caso queira conhecer mais a fundo, clique no link abaixo.",
+      description:"pages.translate.projects.portifolioAngular.description",
       links: [
         {
-          name: "Github",
+          name: "pages.translate.projects.portifolioAngular.name",
           href:"https://github.com/guidossan/Portifolio",
         },
       ],
     },
     {
       imgSrc:"../../../../../assets/img/projects/lista-de-tarefas.png",
-      alt:"Projeto Lista de Tarefas Angular",
-      tittle:"Lista de Tarefas",
+      alt:"pages.translate.projects.toDoList.alt",
+      tittle:"pages.translate.projects.toDoList.title",
       width:"100px",
       height:"100px",
-      description:"Este é meu projeto de uma simples lista de tarefas, utilizando LocalStorage do navegados e comunicação entre componentes para esse projeto utilizei apenas angular no seu desenvolvimento, caso queira conferir e utilizar basta clicar no link abaixo.",
+      description:"pages.translate.projects.toDoList.description",
       links: [
         {
-          name: "Ir para o site",
+          name: "pages.translate.projects.toDoList.name",
           href:"https://lorenzinitech-listatarefas.vercel.app/",
         },
       ],

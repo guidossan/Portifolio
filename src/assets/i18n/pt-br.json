@@ -19,7 +19,26 @@
         }
       },
       "projects":{
-        "title":"Projetos desenvolvidos"
+        "title":"Projetos desenvolvidos",
+        "subTitleDialog":"Descrição do projeto",
+        "reactJava":{
+          "alt":"Projeto React Java",
+          "title":"Projeto React Java",
+          "description":"Olá! Este é meu projeto inicial, desenvolvido em React com backend em Java. O projeto está containerizado com Docker, facilitando o manuseio, e planejo hospedá-lo na nuvem em breve. Caso queira conhecer mais a fundo, clique no link abaixo.",
+          "name":"GitHub"
+        },
+        "portifolioAngular":{
+          "alt":"Portifólio Angular",
+          "title":"Portifólio Angular",
+          "description":"Este é o meu portfólio, que está em constante aprimoramento e recebendo atualizações. Ele foi desenvolvido em Angular, um dos frameworks que tenha familiaridade. Caso queira conhecer mais a fundo, clique no link abaixo.",
+          "name":"GitHub"
+        },
+        "toDoList":{
+          "alt":"Lista de Tarefas",
+          "title":"Lista de Tarefas",
+          "description":"Este é meu projeto de uma simples lista de tarefas, utilizando LocalStorage do navegados e comunicação entre componentes para esse projeto utilizei apenas angular no seu desenvolvimento, caso queira conferir e utilizar basta clicar no link abaixo.",
+          "name":"Ir para o site"
+        }
       }
     }
   }

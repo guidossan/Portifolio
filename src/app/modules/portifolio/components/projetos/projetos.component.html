@@ -7,7 +7,7 @@
         <button (click)="openDialog(item)">
           <img
           [src]="item.imgSrc"
-          [alt]="item.alt"
+          [alt]="item.alt | translate"
 
           loading="lazy"
           />

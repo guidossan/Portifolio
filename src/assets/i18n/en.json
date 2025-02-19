@@ -19,7 +19,26 @@
         }
       },
       "projects":{
-        "title":"Developed projects"
+        "title":"Developed projects",
+        "subTitleDialog":"Project description",
+        "reactJava": {
+          "alt": "React Java Project",
+          "title": "React Java Project",
+          "description": "Hello! This is my initial project, developed in React with a Java backend. The project is containerized with Docker, making it easy to handle, and I plan to host it in the cloud soon. If you want to learn more, click on the link below.",
+          "name":"GitHub"
+        },
+        "portifolioAngular": {
+          "alt": "Angular Portfolio",
+          "title": "Angular Portfolio",
+          "description": "This is my portfolio, which is constantly being improved and receiving updates. It was developed in Angular, one of the frameworks I am familiar with. If you want to learn more, click on the link below.",
+          "name":"GitHub"
+        },
+        "toDoList": {
+          "alt": "Task List",
+          "title": "Task List",
+          "description": "This is my project for a simple task list, using browser LocalStorage and communication between components. For this project, I only used Angular in its development. If you want to check it out and use it, just click on the link below.",
+          "name":"Go to website"
+        }
       }
     }
   }

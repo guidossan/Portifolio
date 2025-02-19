@@ -6,6 +6,9 @@
         "about": "Sobre",
         "contact": "Contato"
       },
+      "footer":{
+        "email":"Enviar um e-mail"
+      },
       "section-1":{
         "job-title-1":"Desenvolvedor",
         "job-title-2":"Full Stack",

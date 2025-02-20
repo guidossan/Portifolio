@@ -7,7 +7,7 @@ import { provideHttpClient } from '@angular/common/http';
 import { provideTranslate } from './app.translate';
 import LocalePt from '@angular/common/locales/pt';
 import { registerLocaleData } from '@angular/common';
-import { provideClientHydration, withEventReplay } from '@angular/platform-browser';
+import { provideClientHydration, withEventReplay,withHttpTransferCacheOptions } from '@angular/platform-browser';
 registerLocaleData(LocalePt);
 
 
